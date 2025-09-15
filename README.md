@@ -1,0 +1,5 @@
+EGAN-TopoNet: Topology-Preserving EEG Data Augmentation with GANs and Vision Transformers for Cognitive Load Classification Cognitive workload recognition from electroencephalography (EEG) is essential for adaptive brain–computer interfaces (BCIs) and operator performance monitoring. However, data scarcity and poor cross-subject generalization remain major challenges.
+
+We propose EGAN-TopoNet, a topology-preserving augmentation framework that integrates Generative Adversarial Networks (GANs) with Vision Transformers (ViTs). Our pipeline generates synthetic EEG topomaps per frequency band (theta, alpha, beta) to balance class distributions, and classifies workload levels using Optuna-optimized ViTs.
+
+Using the STEW dataset [1], EGAN-TopoNet achieves a mean cross-subject accuracy of 56%, slightly below the 69% baseline from support vector regression (Cohen’s κ = 0.46). Unlike prior augmentation studies focusing on emotion or motor imagery, EGAN-TopoNet emphasizes workload decoding, topology preservation, and reproducibility.
